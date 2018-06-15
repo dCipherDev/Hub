@@ -1,5 +1,6 @@
-# How to use it?
 - at this moment it's deployed on Ropsten network
+# How to use it?
+
 # deploy HubToken, set an admin account 
 "0x0D6CE14b31A5a5F7e3F206AE9a022D59ACAAaCFF"
 
@@ -10,11 +11,12 @@ HubCrowdsale
 "10000", "0x0D6CE14b31A5a5F7e3F206AE9a022D59ACAAaCFF", "0xb0079211bE371AE9937741061f0b1611dAbB8906"
 
 
-# HubToken contract setTokenOffering = address of HubCrowdsale
+# HubToken contract 
+setTokenOffering = address of HubCrowdsale
 		setTokenOffering
 		"0x052D11408eA1220db219aD42090acC53B3Fb8d9D","0"
 
-# Allocate tokens for presale participants before public offering, can only be executed at Stages.Setup stage.
+Allocate tokens for presale participants before public offering, can only be executed at Stages.Setup stage.
 - it could be used for presale, u don't need to add them in whitelist
 10000000000000000 = 0.01 tokens
 		allocateTokensBeforeOffering
