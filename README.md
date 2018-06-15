@@ -26,13 +26,13 @@ HubCrowdsale
 # start crowdsale, set 0 seconds, it already do what is writing down
 		startOffering
 
-//first 1 day with cap min 0.1 eth, max 1 eth , then no limit, in 7 days it ends
-// Timelines for contribution limit policy = capReleaseTimestamp		
-//  1 eth		maxContribution = 1000000000000000000 
-//0.1 eth		minContribution = 10000000000000000
-capReleaseTimestamp = startTime + 1 days;
-extraTime = capReleaseTimestamp + 7 days;
-cap = 9000 eth
+		first 1 day with cap min 0.1 eth, max 1 eth , then no limit, in 7 days it ends
+		Timelines for contribution limit policy = capReleaseTimestamp		
+		1 eth		maxContribution = 1000000000000000000 
+		0.1 eth		minContribution = 10000000000000000
+		capReleaseTimestamp = startTime + 1 days;
+		extraTime = capReleaseTimestamp + 7 days;
+		cap = 9000 eth
 
 then send money from whitelisted address to 0x052D11408eA1220db219aD42090acC53B3Fb8d9D
 
